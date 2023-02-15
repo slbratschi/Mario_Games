@@ -1,5 +1,5 @@
 const canvas = document.querySelector('canvas')
-const c canvas.getContext('2d')
+const c = canvas.getContext('2d')
 
 class Player {
 	constructor() {
@@ -16,5 +16,5 @@ class Player {
 	}
 }
 
-const plyer = Player()
+const player = new Player()
 player.draw()
