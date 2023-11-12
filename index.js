@@ -20,5 +20,5 @@ const player = new Player()
 player.draw()
 
 
-test
+test 2 fgfgf
 
