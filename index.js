@@ -1,6 +1,9 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+
 class Player {
 	constructor() {
 		this.position = {
@@ -19,6 +22,5 @@ class Player {
 const player = new Player()
 player.draw()
 
-
-test 2 fgfgf
+ 
 
